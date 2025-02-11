@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8>
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>css box model demonstation </title>
+<style>
+body{
+font-family:Arial,sans-serif;
+margin:20px;
+}
+box{
+width:200px; /*width of the content*/
+margin:20px /*margin around the element
+padding:15px; /*padding inside the element
+*/border:5px solid #333;/* borde around the element*/
+background-color:#f0f0f0;/*background color for visibility*/
+}
+.box.content{
+background-color:#fff;/*background color for the content area*/
+padding:10 px;/* padding inside the content area*/
+}
+</style>
+</head>
+<body>
+<h1> css box model demonstration </h1>
+<div class="box">
+<div class="content">
+<p> this is the content area.</p>
+<p> the css box model includes:</p>
+</ul>
+<li> <strong> content </strong>:the actual content of the element(text,images,etc)</li>
+<li> <strong> padding</strong>:space between the content and the border</li>
+<li> <strong> border</strong>:the border surrounding the padding(and content)</li>
+<li> <strong> margin</strong>:space outside the border ,separating the element from others</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
